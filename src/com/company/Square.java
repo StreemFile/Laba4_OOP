@@ -1,7 +1,7 @@
 package com.company;
 
 public class Square {
-    int sideLength;
+   private int sideLength;
 
     public Square() {
     }
@@ -35,7 +35,7 @@ public class Square {
     }
 
     public double getRadiusOfInscribedCircle(){
-        return this.sideLength/2;
+        return this.getSideLength()*0.5;
     }
 
     public void drawSquare() throws InterruptedException {
